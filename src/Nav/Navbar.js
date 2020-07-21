@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Burger from "./Burger";
 
 const Nav = styled.nav`
+  background-color: #0d2538;
   width: 100%;
   height: 55px;
   border-bottom: 2px solid #f1f1f1;
@@ -11,6 +12,7 @@ const Nav = styled.nav`
   justify-content: space-between;
   .logo {
     padding: 15px 0;
+    color: #ccc;
   }
 `;
 

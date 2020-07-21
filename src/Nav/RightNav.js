@@ -9,9 +9,10 @@ const Ul = styled.ul`
     padding: 18px 10px;
   }
   @media (max-width: 768px) {
+    z-index: 20;
     flex-flow: column nowrap;
-    background-color: #0d2538;
     position: fixed;
+    background-color: #0d2538;
     transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
     top: 0;
     right: 0;
