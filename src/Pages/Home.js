@@ -14,7 +14,7 @@ function Home() {
       <Carousel>
         <Carousel.Item>
           <img
-            src="https://res.cloudinary.com/dmglopmul/image/upload/v1595355377/ghie-als/iloveals.jpg"
+            src="https://res.cloudinary.com/dmglopmul/image/upload/v1595356919/ghie-als/iloveals.jpg"
             alt="First slide"
           />
           <Carousel.Caption>
@@ -24,7 +24,7 @@ function Home() {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            src="https://res.cloudinary.com/dmglopmul/image/upload/v1595355054/ghie-als/studentstwoals.jpg"
+            src="https://res.cloudinary.com/dmglopmul/image/upload/v1595357887/ghie-als/ghieCourt.jpg"
             alt="Third slide"
           />
 
@@ -35,7 +35,7 @@ function Home() {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            src="https://res.cloudinary.com/dmglopmul/image/upload/v1595355984/ghie-als/ghieenrollals.jpg"
+            src="https://res.cloudinary.com/dmglopmul/image/upload/v1595358749/ghie-als/ghieEnrol.Art.jpg"
             alt="Second slide"
           />
 
