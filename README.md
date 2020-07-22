@@ -1,6 +1,6 @@
 This project is deployed on [Netlify](https://jovial-bardeen-ffff02.netlify.app/).
 
-(https://github.com/facebook/create-react-app).
+(https://jovial-bardeen-ffff02.netlify.app/).
 
 ## Available Scripts
 
