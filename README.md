@@ -1,4 +1,4 @@
-This project is deployed on [Netlify](https://jovial-bardeen-ffff02.netlify.app/).
+This project is deployed on [Ghie Simonson's website](https://jovial-bardeen-ffff02.netlify.app/).
 
 (https://jovial-bardeen-ffff02.netlify.app/).
 
