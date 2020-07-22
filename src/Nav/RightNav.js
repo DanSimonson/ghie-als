@@ -31,10 +31,10 @@ const RightNav = ({ open }) => {
   return (
     <Ul open={open}>
       <li>Home</li>
-      <li>About Us</li>
-      <li>Contact Us</li>
-      <li>Learning Material</li>
-      <li>ALS Sign Up</li>
+      <li>About ALS</li>
+      <li>Contact</li>
+      <li>Learning Materials</li>
+      <li>Enrollment Programs</li>
     </Ul>
   );
 };
