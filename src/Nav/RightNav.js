@@ -8,7 +8,7 @@ const Ul = styled.ul`
   li {
     padding: 18px 10px;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 2560px) {
     z-index: 20;
     flex-flow: column nowrap;
     position: fixed;
