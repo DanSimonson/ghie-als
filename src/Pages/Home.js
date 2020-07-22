@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import "./Home.scss";
 import { AlsContext } from "../Context/AlsContext";
-import Navbar from "../Nav/Navbar";
+import Navbar from "../Components/Nav/Navbar";
 import { Carousel } from "react-bootstrap";
 
 function Home() {
@@ -10,7 +10,6 @@ function Home() {
   return (
     <>
       <Navbar />
-
       <Carousel>
         <Carousel.Item className="text-secondary">
           <img
