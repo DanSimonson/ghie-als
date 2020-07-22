@@ -7,8 +7,9 @@ const Ul = styled.ul`
   flex-flow: row nowrap;
   li {
     padding: 18px 10px;
+    color: #fff;
   }
-  @media (max-width: 2560px) {
+  @media (max-width: 768px) {
     z-index: 20;
     flex-flow: column nowrap;
     position: fixed;
