@@ -1,6 +1,6 @@
 This project is deployed on [Ghie Simonson's website](https://jovial-bardeen-ffff02.netlify.app/).
 
-(https://jovial-bardeen-ffff02.netlify.app/).
+Url: (https://jovial-bardeen-ffff02.netlify.app/).
 
 ## Available Scripts
 
