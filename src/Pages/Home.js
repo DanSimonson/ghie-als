@@ -14,6 +14,7 @@ function Home() {
       <Carousel>
         <Carousel.Item>
           <img
+            className="d-block w-100"
             src="https://res.cloudinary.com/dmglopmul/image/upload/v1595356919/ghie-als/iloveals.jpg"
             alt="First slide"
           />
@@ -24,6 +25,7 @@ function Home() {
         </Carousel.Item>
         <Carousel.Item>
           <img
+            className="d-block w-100"
             src="https://res.cloudinary.com/dmglopmul/image/upload/v1595357887/ghie-als/ghieCourt.jpg"
             alt="Third slide"
           />
@@ -35,6 +37,7 @@ function Home() {
         </Carousel.Item>
         <Carousel.Item>
           <img
+            className="d-block w-100"
             src="https://res.cloudinary.com/dmglopmul/image/upload/v1595358749/ghie-als/ghieEnrol.Art.jpg"
             alt="Second slide"
           />
