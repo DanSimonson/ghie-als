@@ -29,7 +29,7 @@ function Home() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="https://res.cloudinary.com/dmglopmul/image/upload/v1595483452/ghie-als/ghieCourtPhoto.png"
+              src="https://res.cloudinary.com/dmglopmul/image/upload/v1595484089/ghie-als/ghieTeach.png"
               alt="Third slide"
             />
 
