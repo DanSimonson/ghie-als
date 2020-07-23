@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { NavLink } from "react-router-dom";
 
 const Ul = styled.ul`
   list-style: none;
@@ -30,12 +31,61 @@ const Ul = styled.ul`
 const RightNav = ({ open }) => {
   return (
     <Ul open={open}>
-      <li>Home</li>
-      <li>About ALS</li>
+      <NavLink
+        exact
+        to="/"
+        className="nav-item nav-link"
+        activeClassName="nav-item nav-link active"
+      >
+        Home
+      </NavLink>
+      <NavLink
+        exact
+        to="/About"
+        className="nav-item nav-link"
+        activeClassName="nav-item nav-link active"
+      >
+        About ALS
+      </NavLink>
+      <NavLink
+        exact
+        to="/Enroll"
+        className="nav-item nav-link"
+        activeClassName="nav-item nav-link active"
+      >
+        Enrollment
+      </NavLink>
+      <NavLink
+        exact
+        to="/Materials"
+        className="nav-item nav-link"
+        activeClassName="nav-item nav-link active"
+      >
+        Learning Material
+      </NavLink>
+      <NavLink
+        exact
+        to="/Contact"
+        className="nav-item nav-link"
+        activeClassName="nav-item nav-link active"
+      >
+        Contact
+      </NavLink>
+      <NavLink
+        exact
+        to="/SignUp"
+        className="nav-item nav-link"
+        activeClassName="nav-item nav-link active"
+      >
+        SignUp
+      </NavLink>
+      {/** 
+       <li>About ALS</li>
       <li>Enrollment</li>
       <li>Learning Material</li>
       <li>Contact</li>
       <li>ALS Sign Up</li>
+       */}
     </Ul>
   );
 };

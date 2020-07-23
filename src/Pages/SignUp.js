@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 const Wrapper = styled.div``;
-function Contact() {
+function SignUp() {
   return (
     <Wrapper>
       <section>
@@ -14,4 +14,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default SignUp;
