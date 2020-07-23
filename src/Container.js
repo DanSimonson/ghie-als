@@ -44,7 +44,6 @@ const Wrapper = styled.div`
 `;
 
 function Container({ location }) {
-  //const { location } = useContext(__RouterContext);
   const [myValue, setMyValue] = useState("Home Page");
 
   return (

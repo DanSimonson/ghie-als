@@ -20,9 +20,10 @@ function Home() {
               alt="First slide"
             />
             <Carousel.Caption>
-              <h3 className="text-dark">First slide label</h3>
+              <h3 className="text-dark">Welcome to Ghie's Online Classroom</h3>
               <p className="text-dark">
-                Nulla vitae elit libero, a pharetra augue mollis interdum.
+                An interactive site dedicated to helping students reach their
+                full potential
               </p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -34,10 +35,10 @@ function Home() {
             />
 
             <Carousel.Caption>
-              <h3 className="text-dark">Second slide label</h3>
-              <p className="text-dark">
+              <h3 className="text-dark">Teaching in new normal setting</h3>
+              {/*<p className="text-dark">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </p>
+              </p>*/}
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -48,10 +49,12 @@ function Home() {
             />
 
             <Carousel.Caption>
-              <h3 className="text-dark">Third slide label</h3>
-              <p className="text-dark">
+              <h3 className="text-dark">
+                Learning in a safe, motivating environment
+              </h3>
+              {/*<p className="text-dark">
                 Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
+              </p>*/}
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>

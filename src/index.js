@@ -11,8 +11,7 @@ import {
 } from "react-router-dom";
 import Container from "./Container";
 import Navbar from "./Nav/Navbar";
-/*</React.StrictMode>,*/
-/*<React.StrictMode>*/
+
 const App = () => (
   <Router>
     <div>

@@ -45,7 +45,7 @@ const RightNav = ({ open }) => {
         className="nav-item nav-link"
         activeClassName="nav-item nav-link active"
       >
-        About ALS
+        About
       </NavLink>
       <NavLink
         exact
@@ -61,7 +61,7 @@ const RightNav = ({ open }) => {
         className="nav-item nav-link"
         activeClassName="nav-item nav-link active"
       >
-        Learning Material
+        Learning Delivery/Intervention
       </NavLink>
       <NavLink
         exact
@@ -71,14 +71,14 @@ const RightNav = ({ open }) => {
       >
         Contact
       </NavLink>
-      <NavLink
+      {/*<NavLink
         exact
         to="/SignUp"
         className="nav-item nav-link"
         activeClassName="nav-item nav-link active"
       >
         SignUp
-      </NavLink>
+      </NavLink>*/}
       {/** 
        <li>About ALS</li>
       <li>Enrollment</li>
