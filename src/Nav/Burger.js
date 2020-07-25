@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import RightNav from "./RightNav";
 
@@ -38,14 +38,22 @@ const StyledBurger = styled.div`
 const Burger = () => {
   const [open, setOpen] = useState(false);
 
+  function closeBurger(dataFromChild) {
+    setOpen(!open);
+  }
+  function closeBurgerFromChild(dataFromChild) {
+    console.log("dataFromChild: ", dataFromChild);
+    setOpen(dataFromChild);
+  }
+
   return (
     <>
-      <StyledBurger open={open} onClick={() => setOpen(!open)}>
+      <StyledBurger open={open} onClick={closeBurger}>
         <div />
         <div />
         <div />
       </StyledBurger>
-      <RightNav open={open} />
+      <RightNav closeB={closeBurgerFromChild} open={open} />
     </>
   );
 };

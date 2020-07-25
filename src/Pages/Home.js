@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import "./Home.scss";
 import { AlsContext } from "../Context/AlsContext";
 import Navbar from "../Nav/Navbar";

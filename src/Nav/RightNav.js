@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 
@@ -28,14 +28,21 @@ const Ul = styled.ul`
   }
 `;
 
-const RightNav = ({ open }) => {
+const RightNav = (props) => {
+  const [close, setClose] = useState(false);
+
+  function closeMe() {
+    props.closeB(close);
+  }
+
   return (
-    <Ul open={open}>
+    <Ul open={props.open}>
       <NavLink
         exact
         to="/"
         className="nav-item nav-link"
         activeClassName="nav-item nav-link active"
+        onClick={closeMe}
       >
         Home
       </NavLink>
@@ -44,6 +51,7 @@ const RightNav = ({ open }) => {
         to="/About"
         className="nav-item nav-link"
         activeClassName="nav-item nav-link active"
+        onClick={closeMe}
       >
         About
       </NavLink>
@@ -52,6 +60,7 @@ const RightNav = ({ open }) => {
         to="/Enroll"
         className="nav-item nav-link"
         activeClassName="nav-item nav-link active"
+        onClick={closeMe}
       >
         Enrollment
       </NavLink>
@@ -60,6 +69,7 @@ const RightNav = ({ open }) => {
         to="/Materials"
         className="nav-item nav-link"
         activeClassName="nav-item nav-link active"
+        onClick={closeMe}
       >
         Learning Delivery/Intervention
       </NavLink>
@@ -68,24 +78,10 @@ const RightNav = ({ open }) => {
         to="/Contact"
         className="nav-item nav-link"
         activeClassName="nav-item nav-link active"
+        onClick={closeMe}
       >
         Contact
       </NavLink>
-      {/*<NavLink
-        exact
-        to="/SignUp"
-        className="nav-item nav-link"
-        activeClassName="nav-item nav-link active"
-      >
-        SignUp
-      </NavLink>*/}
-      {/** 
-       <li>About ALS</li>
-      <li>Enrollment</li>
-      <li>Learning Material</li>
-      <li>Contact</li>
-      <li>ALS Sign Up</li>
-       */}
     </Ul>
   );
 };
