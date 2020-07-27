@@ -10,7 +10,7 @@ function Contact() {
     db.collection("students").doc(documentID).set({
       firstName: obj.firstName,
       lastName: obj.lastName,
-      email: obj.phone,
+      email: obj.email,
       phone: obj.phone,
       gender: obj.gender,
     });
