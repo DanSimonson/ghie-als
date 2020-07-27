@@ -12,9 +12,8 @@ import Materials from "./Pages/Materials";
 import Contact from "./Pages/Contact";
 import About from "./Pages/About";
 import Enroll from "./Pages/Enroll";
-import SignUp from "./Pages/SignUp";
 import { AlsContext } from "./Context/AlsContext";
-import "./App.scss";
+import "./Styles.scss";
 
 const Wrapper = styled.div`
   .fade-enter {
@@ -61,7 +60,6 @@ function Container({ location }) {
                 <Route path="/Materials" component={Materials} />
                 <Route path="/Contact" component={Contact} />
                 <Route path="/About" component={About} />
-                <Route path="/SignUp" component={SignUp} />
                 <Route path="/Enroll" component={Enroll} />
               </Switch>
             </section>

@@ -42,7 +42,6 @@ const Burger = () => {
     setOpen(!open);
   }
   function closeBurgerFromChild(dataFromChild) {
-    console.log("dataFromChild: ", dataFromChild);
     setOpen(dataFromChild);
   }
 

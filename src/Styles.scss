@@ -1,0 +1,51 @@
+@import "~bootstrap/scss/bootstrap";
+
+$Primary-green: #1de9b6;
+$Primary-blue: #4fc3f7;
+$Primary-red: #ef5350;
+
+.nav-link {
+  color: #fff;
+  &:hover {
+    color: $Primary-green;
+  }
+}
+
+/*Contact.js*/
+.jumbo {
+  width: 540px;
+  color: #ccc;
+  text-align: center;
+  background-color: #0d47a1;
+  margin: 0 auto;
+  border-radius: 1%;
+  padding: 1rem 0;
+}
+
+/*ContactForm.js*/
+/*body {
+  background: #f2f2f2;
+}*/
+.container {
+  background-color: #0d47a1; //#0d2538;
+  color: #ccc;
+}
+
+/* start flexing */
+.flex-outer li,
+.flex-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.flex-outer > li > label,
+.flex-outer li p {
+  flex: 1 0 120px;
+  max-width: 220px;
+}
+
+.flex-outer > li > label + *,
+.flex-inner {
+  flex: 1 0 220px;
+}
