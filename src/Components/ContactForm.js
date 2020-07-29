@@ -8,7 +8,6 @@ function ContactForm(props) {
   const [interest, setInterest] = useState("");
   const [program, setProgram] = useState("");
   const [prefer, setPrefer] = useState("");
-  //const [date, setDate] = useState("");
 
   const initialFieldValues = {
     firstName: "",
