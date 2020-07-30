@@ -28,6 +28,10 @@ $velocity-button-white: #daecff;
 .container {
   background-color: #0d47a1; //#0d2538;
   color: #ccc;
+  border-radius: 1px;
+  border-top-left-radius: 80px 80px;
+  border-top-right-radius: 80px 80px;
+  margin: 0 2px;
 }
 
 /* start flexing */
