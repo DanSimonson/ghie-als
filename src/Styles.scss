@@ -3,6 +3,10 @@
 $Primary-green: #1de9b6;
 $Primary-blue: #4fc3f7;
 $Primary-red: #ef5350;
+$velocity-primary: #152457;
+$velocity-secondary-white: #ffffff;
+$velocity-font-white: rgba(255, 255, 255, 0.87);
+$velocity-button-white: #daecff;
 
 .nav-link {
   color: #fff;
@@ -50,3 +54,134 @@ $Primary-red: #ef5350;
 .flex-inner {
   flex: 1 0 220px;
 }
+
+/*********************
+* confirm Modal
+*********************/
+.modal-overlay-error {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1040;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.5;
+}
+
+.modal-wrapper-error {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1050;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: 0;
+  color: $velocity-primary;
+}
+
+.modal-error {
+  z-index: 100;
+  background: white;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100px;
+  //overflow-y: auto;
+  width: 45%; //35%;
+  border-radius: 3px;
+  color: $velocity-primary;
+  //background-color: $velocity-font-white;
+  font-size: 1rem; //1.4rem;
+  //font-weight: 700;
+  //line-height: 1;
+}
+
+.modal-header-error {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.modal-close-button-error {
+  font-size: 1rem; // 1.4rem;
+  //font-weight: 700;
+  //line-height: 1;
+  cursor: pointer;
+  border: none;
+  color: #ccc; //#222;
+  background-color: $velocity-primary;
+}
+.modal-close-button-error:focus {
+  outline: none;
+}
+
+button {
+  font-size: 0.9rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 3px;
+  padding: 0.3rem 1rem;
+  margin-left: 0.5rem;
+}
+
+.renderStyle {
+  margin: 1.5rem 0 1.5rem 1.5rem;
+}
+
+.modal-error {
+  background-color: $velocity-primary;
+  color: $velocity-font-white;
+  /*h6 {
+    margin: 0 0 1rem 0;
+    border-bottom: 1px solid $velocity-primary;
+    padding-left: 1.5rem;
+    padding-bottom: 0.5rem;
+    span {
+      margin-right: 5px;
+    }
+  }*/
+}
+.topErrorWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  line-height: 40%;
+  margin-top: 2rem;
+}
+
+.middleErrorWrap {
+  display: flex;
+  justify-content: center;
+  //margin: 2.5rem 1rem 0 1rem;
+  //background-color: $velocity-primary;
+  //color: $velocity-font-white;
+  /*a {
+    color: $velocity-font-white;
+    text-decoration: underline;
+  }*/
+}
+.bottomErrorWrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  button {
+    background-color: $velocity-primary;
+    color: $velocity-font-white;
+    font-family: Roboto, Arial Narrow, helvetica, arial, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-size: 0.875rem;
+    line-height: 1.14286;
+    font-weight: 500;
+    letter-spacing: 0.07813rem;
+  }
+}
+
+/*********************
+* end confirm Modal
+*********************/
