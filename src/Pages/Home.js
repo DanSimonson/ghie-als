@@ -26,7 +26,7 @@ function Home() {
                     borderTop: "1px solid red",
                     borderBottom: "1px solid red",
                   }}
-                  className="h3 text-black-50"
+                  className="h3 text-dark"
                 >
                   Welcome to Ghie's Online Classroom
                 </p>
@@ -52,7 +52,7 @@ function Home() {
                     borderTop: "1px solid red",
                     borderBottom: "1px solid red",
                   }}
-                  className="h3 text-black-50"
+                  className="h3 text-dark"
                 >
                   Teaching in new normal setting
                 </p>
