@@ -452,7 +452,9 @@ function ContactForm(props) {
               No
             </label>
           </li>
-          <p>If yes, preferred program (Kung OO, anong programa ang nais mo)</p>
+          <p style={{ marginTop: "18px" }}>
+            If yes, preferred program (Kung OO, anong programa ang nais mo)
+          </p>
           <li>
             <label>
               <input
