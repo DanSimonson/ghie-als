@@ -151,7 +151,7 @@ function ContactForm(props) {
               onChange={handleInputChange}
             />
           </li>
-          <p>Sex</p>
+          <p style={{ marginTop: "18px" }}>Sex</p>
           <li>
             <label>
               <input
@@ -174,7 +174,7 @@ function ContactForm(props) {
               Male
             </label>
           </li>
-          <li>
+          <li style={{ marginTop: "18px" }}>
             <label htmlFor="birthdate">Birth Date</label>
             <InputMask
               name="birthdate"
@@ -195,7 +195,7 @@ function ContactForm(props) {
               onChange={handleInputChange}
             />
           </li>
-          <p>Mother Tongue (Sinusong Wika)</p>
+          <p style={{ marginTop: "18px" }}>Mother Tongue (Sinusong Wika)</p>
           <li>
             <label>
               <input
@@ -339,7 +339,7 @@ function ContactForm(props) {
               Other
             </label>
           </li>
-          <p>Religion (Relihiyon)</p>
+          <p style={{ marginTop: "18px" }}>Religion (Relihiyon)</p>
           <li>
             <label>
               <input
@@ -384,7 +384,7 @@ function ContactForm(props) {
               Other
             </label>
           </li>
-          <li>
+          <li style={{ marginTop: "18px" }}>
             <label htmlFor="first-name">Address (Tirahan)</label>
             <input
               type="text"
@@ -427,7 +427,7 @@ function ContactForm(props) {
               onChange={handleInputChange}
             />
           </li>
-          <p>
+          <p style={{ marginTop: "18px" }}>
             Interested in ALS Program (Interesado ka ba sa programa ng ALS?)
           </p>
           <li>
@@ -524,8 +524,10 @@ function ContactForm(props) {
               Other
             </label>
           </li>
-          <li>
-            <button type="submit">Submit</button>
+          <li style={{ marginTop: "18px" }}>
+            <button style={{ marginBottom: "18px" }} type="submit">
+              Submit
+            </button>
           </li>
         </ul>
       </form>
