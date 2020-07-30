@@ -19,3 +19,46 @@
   margin: auto;
   width: 100%; // Add this
 }
+.gridWrap {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.one {
+  //stuff
+  //border: 5px solid green;
+}
+.two {
+  //stuff
+  //border: 5px solid green;
+}
+.three {
+  //stuff
+  //border: 5px solid green;
+}
+.four {
+  //stuff
+  //border: 5px solid green;
+}
+.five {
+  //stuff
+  //border: 5px solid green;
+}
+.six {
+  //stuff
+  //border: 5px solid green;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+//425
+@media screen and (max-width: 480px) {
+  /*body {
+    background-color: lightgreen;
+  }*/
+  .gridWrap {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
