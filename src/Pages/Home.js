@@ -21,7 +21,13 @@ function Home() {
                 alt="First slide"
               />
               <Carousel.Caption>
-                <p className="h6 text-black-50">
+                <p
+                  style={{
+                    borderTop: "1px solid red",
+                    borderBottom: "1px solid red",
+                  }}
+                  className="h3 text-black-50"
+                >
                   Welcome to Ghie's Online Classroom
                 </p>
                 {/*<h3 className="text-white overlay">
@@ -41,7 +47,13 @@ function Home() {
               />
 
               <Carousel.Caption>
-                <p className="h6 text-black-50">
+                <p
+                  style={{
+                    borderTop: "1px solid red",
+                    borderBottom: "1px solid red",
+                  }}
+                  className="h3 text-black-50"
+                >
                   Teaching in new normal setting
                 </p>
                 {/*<h3 className="text-white overlay">
@@ -65,7 +77,7 @@ function Home() {
                     borderTop: "1px solid red",
                     borderBottom: "1px solid red",
                   }}
-                  className="h6 text-dark"
+                  className="h3 text-dark"
                 >
                   Learning in a safe, motivating environment
                 </p>
