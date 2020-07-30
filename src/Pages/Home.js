@@ -26,7 +26,7 @@ function Home() {
                     borderTop: "1px solid red",
                     borderBottom: "1px solid red",
                   }}
-                  className="d-none d-md-block d-lg-block h5"
+                  className="d-none d-md-block d-lg-block h5 text-dark"
                 >
                   Welcome to Ghie's Online Classroom
                 </p>
@@ -41,7 +41,7 @@ function Home() {
 
               <Carousel.Caption>
                 <p
-                  className="h5"
+                  className="d-none d-md-block d-lg-block h5 text-dark"
                   style={{
                     borderTop: "1px solid red",
                     borderBottom: "1px solid red",
@@ -64,7 +64,7 @@ function Home() {
                     borderTop: "1px solid red",
                     borderBottom: "1px solid red",
                   }}
-                  className="h5"
+                  className="d-none d-md-block d-lg-block h5 text-dark"
                 >
                   Learning in a safe, motivating environment
                 </p>
