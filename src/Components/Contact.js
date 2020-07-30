@@ -36,11 +36,13 @@ function Contact() {
       .then(() => {
         setErrorOpen(true);
       })
-      .catch(() => {});
+      .catch((error) => {
+        console.log("error: ", error);
+      });
   };
   return (
     <>
-      <div className="jumbo">ALS Enrollment Form</div>
+      {/*<div className="jumbo">ALS Enrollment Form</div>*/}
       <ContactForm addOrEdit={addOrEdit} />
       <ConfirmModal errorOpen={errorOpen} closeModal={closeModal} />
     </>
