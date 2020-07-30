@@ -6,7 +6,14 @@
   height: 200px;
   width: 100%;
 }
-.caoursel-inner {
+.carousel-inner > .item > .caption > h3 {
+  //color: white;
+  //background-color: #333;
+  //opacity: 50%;
+  //color: #ffffff;
+  //font-size: 12px;
+  //border-top: 1px solid #ef5350;
+  //border-bottom: 1px solid #ef5350;
 }
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
@@ -17,11 +24,7 @@
   margin: auto;
   width: 100%; // Add this
 }
-.carousel-caption {
-  &:h3 {
-    color: red;
-  }
-}
+
 .gridWrap {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -57,12 +60,12 @@ img {
   height: 100%;
 }
 .overlay {
-  background-color: #333;
+  /*background-color: #333;
   opacity: 50%;
-  color: #ffffff;
+  //color: #ffffff;
   font-size: 12px;
   border-top: 1px solid #ef5350;
-  border-bottom: 1px solid #ef5350;
+  border-bottom: 1px solid #ef5350;*/
 }
 @media screen and (max-width: 480px) {
   /*body {
