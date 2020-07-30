@@ -6,7 +6,7 @@ const Nav = styled.nav`
   background-color: #0d2538;
   color: #ccc
   width: 100%;
-  height: 55px;
+  height: 70px;
   border-bottom: 2px solid #f1f1f1;
   padding: 0 20px;
   display: flex;
