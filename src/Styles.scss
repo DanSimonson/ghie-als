@@ -1,7 +1,7 @@
 @import "~bootstrap/scss/bootstrap";
 
-$Primary-green: #1de9b6;
-$Primary-blue: #4fc3f7;
+$Primary-green: #26a69a;
+$Primary-blue: #2196f3;
 $Primary-red: #ef5350;
 $velocity-primary: #152457;
 $velocity-secondary-white: #ffffff;
@@ -32,6 +32,28 @@ $velocity-button-white: #daecff;
   border-top-left-radius: 80px 80px;
   border-top-right-radius: 80px 80px;
   margin: 0 auto;
+}
+.submitButton {
+  color: #ffffff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: $Primary-green; //#ed3330;
+  padding: 15px;
+  //border-radius: 5px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+}
+.submitButton:hover,
+.submitButton:active {
+  outline: none;
+  cursor: pointer;
+  background: $Primary-blue;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
 }
 
 /* start flexing */
@@ -82,7 +104,7 @@ $velocity-button-white: #daecff;
 
 .modal-error {
   z-index: 100;
-  background: white;
+  background: $velocity-button-white;
   position: relative;
   top: 50%;
   left: 50%;
@@ -109,8 +131,8 @@ $velocity-button-white: #daecff;
   //line-height: 1;
   cursor: pointer;
   border: none;
-  color: #ccc; //#222;
-  background-color: $velocity-primary;
+  color: $velocity-primary; //#222;
+  background-color: $velocity-button-white; //$velocity-primary;
 }
 .modal-close-button-error:focus {
   outline: none;
@@ -129,10 +151,10 @@ button {
   margin: 1.5rem 0 1.5rem 1.5rem;
 }
 
-.modal-error {
+/*.modal-error {
   background-color: $velocity-primary;
   color: $velocity-font-white;
-  /*h6 {
+  h6 {
     margin: 0 0 1rem 0;
     border-bottom: 1px solid $velocity-primary;
     padding-left: 1.5rem;
@@ -140,8 +162,8 @@ button {
     span {
       margin-right: 5px;
     }
-  }*/
-}
+  }
+}*/
 .topErrorWrap {
   display: flex;
   flex-direction: column;

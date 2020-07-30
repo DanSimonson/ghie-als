@@ -21,13 +21,11 @@ function Home() {
                 alt="First slide"
               />
               <Carousel.Caption>
-                <h3 className="text-dark">
-                  Welcome to Ghie's Online Classroom
-                </h3>
-                <p className="text-dark">
+                <h3 className="overlay">Welcome to Ghie's Online Classroom</h3>
+                {/*<p className="overlay">
                   An interactive site dedicated to helping students reach their
                   full potential
-                </p>
+                </p>*/}
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -38,7 +36,7 @@ function Home() {
               />
 
               <Carousel.Caption>
-                <h3 className="text-dark">Teaching in new normal setting</h3>
+                <h3 className="overlay">Teaching in new normal setting</h3>
                 {/*<p className="text-dark">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>*/}
@@ -52,7 +50,7 @@ function Home() {
               />
 
               <Carousel.Caption>
-                <h3 className="text-dark">
+                <h3 className="overlay">
                   Learning in a safe, motivating environment
                 </h3>
                 {/*<p className="text-dark">

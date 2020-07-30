@@ -1,14 +1,12 @@
 @import "../Styles.scss";
 
 .home {
-  color: #222;
 }
 .spaceBetween {
   height: 200px;
   width: 100%;
 }
 .caoursel-inner {
-  color: #2e4c80;
 }
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
@@ -18,6 +16,11 @@
   line-height: 1;
   margin: auto;
   width: 100%; // Add this
+}
+.carousel-caption {
+  &:h3 {
+    color: red;
+  }
 }
 .gridWrap {
   display: grid;
@@ -53,7 +56,14 @@ img {
   width: 100%;
   height: 100%;
 }
-//425
+.overlay {
+  background-color: #333;
+  opacity: 50%;
+  color: "#ffffff";
+  font-size: 12px;
+  border-top: 1px solid #ef5350;
+  border-bottom: 1px solid #ef5350;
+}
 @media screen and (max-width: 480px) {
   /*body {
     background-color: lightgreen;

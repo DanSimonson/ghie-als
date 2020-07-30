@@ -46,7 +46,7 @@ const RightNav = (props) => {
       >
         Home
       </NavLink>
-      <NavLink
+      {/*<NavLink
         exact
         to="/About"
         className="nav-item nav-link"
@@ -54,7 +54,7 @@ const RightNav = (props) => {
         onClick={closeMe}
       >
         About
-      </NavLink>
+      </NavLink>*/}
       <NavLink
         exact
         to="/Enroll"
@@ -64,7 +64,7 @@ const RightNav = (props) => {
       >
         Enrollment
       </NavLink>
-      <NavLink
+      {/*<NavLink
         exact
         to="/Materials"
         className="nav-item nav-link"
@@ -81,7 +81,7 @@ const RightNav = (props) => {
         onClick={closeMe}
       >
         Contact
-      </NavLink>
+      </NavLink>*/}
     </Ul>
   );
 };
