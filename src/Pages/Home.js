@@ -26,17 +26,10 @@ function Home() {
                     borderTop: "1px solid red",
                     borderBottom: "1px solid red",
                   }}
-                  className="h3 text-dark"
+                  className="d-none d-md-block d-lg-block h5"
                 >
                   Welcome to Ghie's Online Classroom
                 </p>
-                {/*<h3 className="text-white overlay">
-                  Welcome to Ghie's Online Classroom
-                 </h3>*/}
-                {/*<p className="overlay">
-                  An interactive site dedicated to helping students reach their
-                  full potential
-                </p>*/}
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -48,20 +41,14 @@ function Home() {
 
               <Carousel.Caption>
                 <p
+                  className="h5"
                   style={{
                     borderTop: "1px solid red",
                     borderBottom: "1px solid red",
                   }}
-                  className="h3 text-dark"
                 >
                   Teaching in new normal setting
                 </p>
-                {/*<h3 className="text-white overlay">
-                  Teaching in new normal setting
-              </h3>*/}
-                {/*<p className="text-dark">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </p>*/}
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -77,20 +64,13 @@ function Home() {
                     borderTop: "1px solid red",
                     borderBottom: "1px solid red",
                   }}
-                  className="h3 text-dark"
+                  className="h5"
                 >
                   Learning in a safe, motivating environment
                 </p>
-                {/*<h3 className="text-white overlay">
-                  Learning in a safe, motivating environment
-            </h3>*/}
-                {/*<p className="text-dark">
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>*/}
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
-          {/*<div style={{ height: "100vh", backgroundColor: "#4fc3f7" }}></div>*/}
         </section>
         <div className="gridWrap">
           <div className="one">
