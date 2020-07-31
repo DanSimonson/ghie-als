@@ -24,6 +24,17 @@ $velocity-button-white: #daecff;
   padding: 1rem 1rem;
 }
 
+/*Contact*/
+.instructions {
+  border-top-left-radius: 80px 80px;
+  border-top-right-radius: 80px 80px;
+  border-bottom-left-radius: 80px 80px;
+  border-bottom-right-radius: 80px 80px;
+  margin: 0 3.2rem 12px 3.2rem;
+  padding: 1rem 2rem 10px 2rem;
+  background-color: $Primary-blue;
+}
+
 /*ContactForm.js*/
 .container {
   background-color: #0d47a1; //#0d2538;

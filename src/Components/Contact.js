@@ -45,6 +45,13 @@ function Contact() {
       <div style={{ margin: " 16px 5px" }}>
         <img src="https://res.cloudinary.com/dmglopmul/image/upload/v1596168301/ghie-als/ALS-ENROLLMENT-PROCEDURE-gina.jpg" />
       </div>
+      <div className="instructions">
+        <p>
+          Para Sa mga nais pumasok Sa ALS Silang SY 2020-2021 maaari pa kayong
+          mag enrol o magparegister . Just fill out the form na nasa ibaba o
+          tumawag sa number na nasa poster.
+        </p>
+      </div>
       <ContactForm addOrEdit={addOrEdit} />
       <ConfirmModal errorOpen={errorOpen} closeModal={closeModal} />
     </>
