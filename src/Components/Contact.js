@@ -42,7 +42,9 @@ function Contact() {
   };
   return (
     <>
-      {/*<div className="jumbo">ALS Enrollment Form</div>*/}
+      <div style={{ margin: " 16px 5px" }}>
+        <img src="https://res.cloudinary.com/dmglopmul/image/upload/v1596168301/ghie-als/ALS-ENROLLMENT-PROCEDURE-gina.jpg" />
+      </div>
       <ContactForm addOrEdit={addOrEdit} />
       <ConfirmModal errorOpen={errorOpen} closeModal={closeModal} />
     </>
