@@ -89,7 +89,7 @@ function Home() {
             <img src="https://res.cloudinary.com/dmglopmul/image/upload/v1596130651/ghie-als/forEducation.jpg" />
           </div>
           <div className="six">
-            <img src="https://res.cloudinary.com/dmglopmul/image/upload/v1596130910/ghie-als/deped_als_logo.jpg" />
+            <img src="https://res.cloudinary.com/dmglopmul/image/upload/v1596164916/ghie-als/logoALSCrop.png" />
           </div>
         </div>
       </Wrapper>
