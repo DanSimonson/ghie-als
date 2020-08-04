@@ -7,48 +7,55 @@ function About() {
     <Wrapper>
       <article>
         <section>
-          <h1>Article Title</h1>
+          <h1>THE DEPED MISSION</h1>
           <p>
-            Sed autem necessitatibus quibusdam rerum suscipit aspernatur. Aut
-            voluptatem animi rerum vero et et. Explicabo vel pariatur dolorem
-            voluptas blanditiis quia magni eos. Ab temporibus nam tempora.
+            To protect and promote the right of every Filipino to quality,
+            equitable, culture-based, and complete basic education where:
           </p>
-          <p>
+          <ul className="list">
+            <li>
+              Students learn in a child-friendly, gender-sensitive, safe, and
+              motivating environment.
+            </li>
+            <li>
+              Teachers facilitate learning and constantly nurture every learner.
+            </li>
+            <li>
+              Administrators and staff, as stewards of the institution, ensure
+              an enabling and supportive environment for effective learning to
+              happen.
+            </li>
+            <li>
+              Family, community, and other stakeholders are actively engaged and
+              share responsibility for developing life-long learners.
+            </li>
+          </ul>
+          {/*<p>
             Pariatur consequatur blanditiis voluptatem. Error in esse temporibus
             quia. Perferendis molestiae velit deleniti deserunt. Provident qui
             ullam adipisci optio. Molestias similique et deserunt sint molestias
             autem non autem. Nemo itaque repellat assumenda nostrum qui eos
             porro dolorum.
-          </p>
+          </p>*/}
         </section>
         <figure>
-          <img src="http://via.placeholder.com/1500x450?text=Image" />
+          <img src="https://res.cloudinary.com/dmglopmul/image/upload/v1596514527/ghie-als/ghieMainClassPhoto.jpg" />
         </figure>
         <section>
-          <p>
-            Ea a assumenda rerum. Omnis ut voluptatem asperiores eius omnis
-            laborum et. Pariatur et eos expedita eos sint modi est ut. Rerum
-            molestiae magni quasi dolorum consequatur harum molestiae. Aut
-            sunomnis atque deserunt molestiae. Repellendus aut unde impedit
-            fugiat quia qui.
-          </p>
-          <p>
-            Saepe voluptas officia corporis sed. Consequatur nam aperiam enim
-            necessitatibus non doloribus quis ullam. Qui aut quisquam voluptatem
-            neque quidem harum.
-          </p>
-          <p>
-            Sed autem necessitatibus quibusdam rerum suscipit aspernatur. Aut
-            voluptatem animi rerum vero et et. Explicabo vel pariatur dolorem
-            voluptas blanditiis quia magni eos. Ab temporibus nam tempora.
-          </p>
-          <p>
-            Pariatur consequatur blanditiis voluptatem. Error in esse temporibus
-            quia. Perferendis molestiae velit deleniti deserunt. Provident qui
-            ullam adipisci optio. Molestias similique et deserunt sint molestias
-            autem non autem. Nemo itaque repellat assumenda nostrum qui eos
-            porro dolorum.
-          </p>
+          <h1>THE DEPED VISION</h1>
+          <ul className="list">
+            <li>We dream of Filipinos.</li>
+            <li>who passionately love their country</li>
+            <li>and whose values and competencies</li>
+            <li>enable them to realize their full potential</li>
+            <li>and contribute meaningfully to building the nation.</li>
+          </ul>
+          <ul className="list">
+            <li>As a learner-centered public institution,</li>
+            <li>the Department of Education</li>
+            <li>continuously improves itself</li>
+            <li>to better serve its stakeholders.</li>
+          </ul>
         </section>
       </article>
     </Wrapper>

@@ -7,6 +7,8 @@ $velocity-primary: #152457;
 $velocity-secondary-white: #ffffff;
 $velocity-font-white: rgba(255, 255, 255, 0.87);
 $velocity-button-white: #daecff;
+$medium-grey: #e3dfdb;
+$light-grey: #fafafa;
 
 .nav-link {
   color: #fff;
@@ -244,7 +246,7 @@ body {
 }
 
 article > * {
-  background-color: #eaeaea;
+  background-color: $medium-grey; //#eaeaea;
   padding: 2em;
 }
 
@@ -254,6 +256,12 @@ figure {
 
 img {
   max-width: 100%;
+}
+.list {
+  list-style: none;
+}
+.list > li {
+  //text-decoration: none;
 }
 
 /*********************
