@@ -2,7 +2,9 @@ import React, { useState, useEffect } from "react";
 import { Button, FormGroup, FormControl, FormLabel } from "react-bootstrap";
 import styled from "styled-components";
 import "./Login.scss";
-const Wrapper = styled.div``;
+const Wrapper = styled.div`
+  background-color: #e3dfdb;
+`;
 export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
