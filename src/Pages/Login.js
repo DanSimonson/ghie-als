@@ -8,13 +8,28 @@ const Wrapper = styled.div`
 export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const initialFieldValues = {
+    email: "",
+    password: "",
+  };
+  let [values, setValues] = useState(initialFieldValues);
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
+  const handleInputChange = (e) => {
+    let { name, value } = e.target;
+
+    /*setValues({
+      ...values,
+      [name]: value,
+    });*/
+  };
+
   function validateForm() {
-    return email.length > 0 && password.length > 0;
+    //return email.length > 0 && password.length > 0;
+    return values.length > 0;
   }
 
   function handleSubmit(event) {
@@ -45,6 +60,7 @@ export default function Login() {
                 <FormControl
                   autoFocus
                   type="email"
+                  name="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                 />
@@ -52,6 +68,7 @@ export default function Login() {
               <FormGroup controlId="password" bsSize="large">
                 <FormLabel>Password</FormLabel>
                 <FormControl
+                  name="password"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   type="password"
