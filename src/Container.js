@@ -12,6 +12,7 @@ import Materials from "./Pages/Materials";
 import Contact from "./Pages/Contact";
 import About from "./Pages/About";
 import Enroll from "./Pages/Enroll";
+import Login from "./Pages/Login";
 import { AlsContext } from "./Context/AlsContext";
 import "./Styles.scss";
 
@@ -61,6 +62,7 @@ function Container({ location }) {
                 <Route path="/Contact" component={Contact} />
                 <Route path="/About" component={About} />
                 <Route path="/Enroll" component={Enroll} />
+                <Route path="/Login" component={Login} />
               </Switch>
             </section>
           </CSSTransition>

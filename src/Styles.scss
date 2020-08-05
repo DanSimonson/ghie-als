@@ -19,9 +19,9 @@ $light-grey: #fafafa;
 
 .jumbo {
   width: 50%;
-  color: #ccc;
+  color: #111; //#ccc;
   text-align: center;
-  background-color: #0d47a1;
+  background-color: #388e3c; //#e3dfdb; //#0d47a1;
   margin: 0 auto;
   padding: 1rem 1rem;
 }
@@ -34,13 +34,14 @@ $light-grey: #fafafa;
   border-bottom-right-radius: 80px 80px;
   margin: 0 3.2rem 12px 3.2rem;
   padding: 1rem 2rem 10px 2rem;
-  background-color: $Primary-blue;
+  background-color: #ffab00; //$Primary-blue;
+  color: #111;
 }
 
 /*ContactForm.js*/
 .container {
-  background-color: #0d47a1; //#0d2538;
-  color: #ccc;
+  background-color: #388e3c; //#e3dfdb; //#0d47a1; //#0d2538;
+  color: #111; //#ccc;
   border-radius: 1px;
   border-top-left-radius: 80px 80px;
   border-top-right-radius: 80px 80px;
@@ -123,14 +124,10 @@ $light-grey: #fafafa;
   left: 50%;
   transform: translate(-50%, -50%);
   height: 100px;
-  //overflow-y: auto;
-  width: 45%; //35%;
+  width: 45%;
   border-radius: 3px;
   color: $velocity-primary;
-  //background-color: $velocity-font-white;
-  font-size: 1rem; //1.4rem;
-  //font-weight: 700;
-  //line-height: 1;
+  font-size: 1rem;
 }
 
 .modal-header-error {
@@ -139,13 +136,11 @@ $light-grey: #fafafa;
 }
 
 .modal-close-button-error {
-  font-size: 1rem; // 1.4rem;
-  //font-weight: 700;
-  //line-height: 1;
+  font-size: 1rem;
   cursor: pointer;
   border: none;
-  color: $velocity-primary; //#222;
-  background-color: $velocity-button-white; //$velocity-primary;
+  color: $velocity-primary;
+  background-color: $velocity-button-white;
 }
 .modal-close-button-error:focus {
   outline: none;
@@ -266,4 +261,24 @@ img {
 
 /*********************
 * end about page
+*********************/
+
+/*********************
+* login page
+*********************/
+.Login form {
+  //margin: 0 auto;
+  max-width: 320px;
+}
+.Login Button {
+  opacity: 0.6;
+  transition: 0.3s;
+}
+.Login Button:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+/*********************
+* end login page
 *********************/
