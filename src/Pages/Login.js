@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Button, FormGroup, FormControl, FormLabel } from "react-bootstrap";
 import styled from "styled-components";
 import "./Login.scss";
@@ -6,6 +6,10 @@ const Wrapper = styled.div``;
 export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   function validateForm() {
     return email.length > 0 && password.length > 0;

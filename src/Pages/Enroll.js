@@ -6,21 +6,7 @@ const Wrapper = styled.div``;
 
 function Enroll() {
   useEffect(() => {
-    //db.collection
-    /*db.collection("students")
-      .get()
-      .then((snapshot) => {
-        //console.log("snapshot: ", snapshot);
-        const students = [];
-        snapshot.forEach((doc) => {
-          const data = doc.data();
-          //console.log("data: ", data);
-          students.push(data);
-        });
-      })
-      .catch((error) => {
-        console.log(error);
-      });*/
+    window.scrollTo(0, 0);
   }, []);
 
   return <Contact />;
