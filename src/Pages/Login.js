@@ -7,9 +7,12 @@ import { AlsContext } from "../Context/AlsContext";
 import { auth } from "../Firebase";
 import { useHistory } from "react-router-dom";
 //background-color: #e3dfdb;
-const Wrapper = styled.div``;
+
+const Wrapper = styled.div`
+  background-color: #e3dfdb;
+`;
 const ContainerWrap = styled.div`
-  height: 100vh;
+  height: 40%;
   width: 90%;
   background-color: #388e3c;
   margin: 0 auto;
