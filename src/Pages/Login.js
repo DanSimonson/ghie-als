@@ -6,12 +6,10 @@ import ErrorModal from "../Components/ErrorModal";
 import { AlsContext } from "../Context/AlsContext";
 import { auth } from "../Firebase";
 import { useHistory } from "react-router-dom";
-
-const Wrapper = styled.div`
-  background-color: #e3dfdb;
-`;
+//background-color: #e3dfdb;
+const Wrapper = styled.div``;
 const ContainerWrap = styled.div`
-  height: 40%;
+  height: 100vh;
   width: 90%;
   background-color: #388e3c;
   margin: 0 auto;
