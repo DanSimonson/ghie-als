@@ -12,7 +12,7 @@ const Wrapper = styled.div`
 `;
 //background-color: #388e3c;
 const ContainerWrap = styled.div`
-  height: 40%;
+  height: 100%;
   width: 80%;
   background-color: #388e3c;
   margin: 0 auto;
