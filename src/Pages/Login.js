@@ -86,7 +86,6 @@ export default function Login() {
               <div className="flexWrapTwo">
                 <label htmlFor="password">Password</label>
                 <input
-                  style={{ width: "100%" }}
                   type="text"
                   id="password"
                   placeholder="Enter Password"
