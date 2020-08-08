@@ -12,12 +12,13 @@ const Wrapper = styled.div``;
 //background-color: #388e3c;margin: 0 auto
 const ContainerWrap = styled.div`
   height: 100%;
-  width: 80%;
+  width: 100%;
   background-color: #388e3c;
   margin-top: 2rem;
   margin-bottom: 0
-  margin-left: auto;
+  margin-left: 2rem;
   margin-right: auto;
+  border: 5px solid red;
 `;
 const Header = styled.h3`
   //border: 5px solid red;
