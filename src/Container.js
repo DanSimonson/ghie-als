@@ -13,7 +13,8 @@ import Contact from "./Pages/Contact";
 import About from "./Pages/About";
 import Enroll from "./Pages/Enroll";
 import Login from "./Pages/Login";
-import { AlsContext } from "./Context/AlsContext";
+import SignedUp from "./Pages/SignedUp";
+//import { AlsContext } from "./Context/AlsContext";
 import "./Styles.scss";
 
 const Wrapper = styled.div`
@@ -45,30 +46,32 @@ const Wrapper = styled.div`
 
 function Container({ location }) {
   const [myValue, setMyValue] = useState("Home Page");
-
+  const [user, setUser] = useState("");
+  //{/*</AlsContext.Provider>*/}
+  //{/*<AlsContext.Provider value={{ myValue, setMyValue, user, setUser }}>*/}
   return (
-    <AlsContext.Provider value={{ myValue, setMyValue }}>
-      <Wrapper>
-        <TransitionGroup className="transition-group">
-          <CSSTransition
-            key={location.key}
-            timeout={{ enter: 300, exit: 300 }}
-            classNames="fade"
-          >
-            <section className="route-section">
-              <Switch>
-                <Route exact path="/" component={Home} />
-                <Route path="/Materials" component={Materials} />
-                <Route path="/Contact" component={Contact} />
-                <Route path="/About" component={About} />
-                <Route path="/Enroll" component={Enroll} />
-                <Route path="/Login" component={Login} />
-              </Switch>
-            </section>
-          </CSSTransition>
-        </TransitionGroup>
-      </Wrapper>
-    </AlsContext.Provider>
+    <Wrapper>
+      <TransitionGroup className="transition-group">
+        <CSSTransition
+          key={location.key}
+          timeout={{ enter: 300, exit: 300 }}
+          classNames="fade"
+        >
+          <section className="route-section">
+            <Switch>
+              <Route exact path="/" component={Home} />
+              <Route path="/Materials" component={Materials} />
+              <Route path="/Contact" component={Contact} />
+              <Route path="/About" component={About} />
+              <Route path="/Enroll" component={Enroll} />
+              <Route path="/Login" component={Login} />
+              <Route path="/Materials" component={Materials} />
+              <Route path="/SignedUp" component={SignedUp} />
+            </Switch>
+          </section>
+        </CSSTransition>
+      </TransitionGroup>
+    </Wrapper>
   );
 }
 

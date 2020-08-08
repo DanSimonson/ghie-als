@@ -17,11 +17,11 @@ const Nav = styled.nav`
   }
 `;
 
-const Navbar = () => {
+const Navbar = (props) => {
   return (
     <Nav>
       <div className="logo">Ghie Simonson's ALS Page</div>
-      <Burger />
+      <Burger user={props.user} />
     </Nav>
   );
 };

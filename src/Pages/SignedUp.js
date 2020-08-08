@@ -2,17 +2,18 @@ import React, { useEffect } from "react";
 import styled from "styled-components";
 const Wrapper = styled.div``;
 
-function Materials() {
+function SignedUp() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
   return (
     <Wrapper>
       <section>
-        <p>The Learning Material Page</p>
+        <p>The SignedUp Page</p>
       </section>
     </Wrapper>
   );
 }
 
-export default Materials;
+export default SignedUp;

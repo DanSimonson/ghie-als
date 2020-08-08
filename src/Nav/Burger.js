@@ -35,8 +35,9 @@ const StyledBurger = styled.div`
   }
 `;
 
-const Burger = () => {
+const Burger = (props) => {
   const [open, setOpen] = useState(false);
+  //console.log("in Burger, props: ", props);
 
   function closeBurger(dataFromChild) {
     setOpen(!open);
@@ -52,7 +53,7 @@ const Burger = () => {
         <div />
         <div />
       </StyledBurger>
-      <RightNav closeB={closeBurgerFromChild} open={open} />
+      <RightNav user={props.user} closeB={closeBurgerFromChild} open={open} />
     </>
   );
 };

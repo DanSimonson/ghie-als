@@ -41,7 +41,7 @@ function About() {
           </p>
           <p>
             Although the teaching tecniques change, the goal remains the same...
-            to tap into students' passions and allows them to feel a connection
+            to tap into students' passions and allow them to feel a connection
             to the curriculum, empowering them to learn.
           </p>
         </section>

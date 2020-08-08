@@ -2,6 +2,9 @@ import React, { useState, useContext } from "react";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 import { AlsContext } from "../Context/AlsContext";
+//import SignedInLinks from "../Components/SignedInLinks";
+//import SignedOutLinks from "../Components/SignedOutLinks";
+
 const Ul = styled.ul`
   list-style: none;
   display: flex;
@@ -28,10 +31,14 @@ const Ul = styled.ul`
   }
 `;
 
-const RightNav = (props) => {
+const SignedInLinks = (props) => {
   const [close, setClose] = useState(false);
+  const { user, setUser } = useContext(AlsContext);
   const navProps = useContext(AlsContext);
+  console.log("in RightNav navProps: ", navProps);
 
+  //  const links = auth.uid ? <SignedInLinks /> : <SignedOutLinks />;
+  //const links = navProps.user !== "" ? <SignedInLinks /> : <SignedOutLinks />;
   function closeMe() {
     props.closeB(close);
   }
@@ -76,6 +83,15 @@ const RightNav = (props) => {
       </NavLink>
       {/*<NavLink
         exact
+        to="/Materials"
+        className="nav-item nav-link"
+        activeClassName="nav-item nav-link active"
+        onClick={closeMe}
+      >
+        Learning Delivery/Intervention
+      </NavLink>
+      <NavLink
+        exact
         to="/Contact"
         className="nav-item nav-link"
         activeClassName="nav-item nav-link active"
@@ -83,30 +99,8 @@ const RightNav = (props) => {
       >
         Contact
       </NavLink>*/}
-      {navProps.user !== "" && (
-        <>
-          <NavLink
-            exact
-            to="/Materials"
-            className="nav-item nav-link"
-            activeClassName="nav-item nav-link active"
-            onClick={closeMe}
-          >
-            Learning Delivery/Intervention
-          </NavLink>
-          <NavLink
-            exact
-            to="/SignedUp"
-            className="nav-item nav-link"
-            activeClassName="nav-item nav-link active"
-            onClick={closeMe}
-          >
-            SignUp
-          </NavLink>
-        </>
-      )}
     </Ul>
   );
 };
 
-export default RightNav;
+export default SignedInLinks;

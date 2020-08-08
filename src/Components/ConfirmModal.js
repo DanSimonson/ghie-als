@@ -3,7 +3,6 @@ import { withRouter } from "react-router";
 
 function ConfirmModal(props) {
   const { errorOpen } = props;
-  console.log("props in confirm modal: ", errorOpen);
 
   //history, match, location
   function closeModal(event) {
@@ -44,9 +43,6 @@ function ConfirmModal(props) {
                   </span>
                 </button>
               </div>
-              {/*<div className="topErrorWrap" style={{ opacity: "1" }}>
-                <h1>Error Message</h1>
-              </div>*/}
               <div className="middleErrorWrap">
                 <p>Your information was saved. &nbsp;</p>
               </div>
