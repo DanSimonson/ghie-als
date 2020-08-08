@@ -530,9 +530,6 @@ function ContactForm(props) {
             <button type="submit" className="submitButton">
               Submit
             </button>
-            {/*<button style={{ marginBottom: "18px" }} type="submit">
-              Submit
-              </button>*/}
           </li>
         </ul>
       </form>

@@ -1,14 +1,14 @@
 import React, { useState } from "react";
-import styled from "styled-components";
-import ContactForm from "./ContactForm";
 import { db } from "../Firebase";
 import { nanoid } from "nanoid";
+import styled from "styled-components";
+import ContactForm from "./ContactForm";
 import { AlsContext } from "../Context/AlsContext";
 import ConfirmModal from "./ConfirmModal";
 
 function Contact() {
   const [errorOpen, setErrorOpen] = useState(false);
-  //console.log("errorOpen: ", errorOpen);
+
   const closeModal = (closeBool) => {
     setErrorOpen(closeBool);
   };

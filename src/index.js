@@ -14,11 +14,10 @@ import Navbar from "./Nav/Navbar";
 import { AlsContext } from "./Context/AlsContext";
 
 function App() {
-  const [myValue, setMyValue] = useState("Home Page");
   const [user, setUser] = useState("");
-
+  const [errorOpen, setErrorOpen] = useState(false);
   return (
-    <AlsContext.Provider value={{ user, setUser }}>
+    <AlsContext.Provider value={{ user, setUser, errorOpen, setErrorOpen }}>
       <Router>
         <div>
           <Navbar />

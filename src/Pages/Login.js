@@ -2,8 +2,10 @@ import React, { useState, useEffect, useContext } from "react";
 import { Button, FormGroup, FormControl, FormLabel } from "react-bootstrap";
 import styled from "styled-components";
 import "./Login.scss";
+import ErrorModal from "../Components/ErrorModal";
 import { AlsContext } from "../Context/AlsContext";
 import { auth } from "../Firebase";
+import { useHistory } from "react-router-dom";
 
 const Wrapper = styled.div`
   background-color: #e3dfdb;
@@ -22,13 +24,18 @@ const Header = styled.h3`
   text-align: center;
 `;
 export default function Login() {
-  //const [signedIn, setSignedIn] = useState("no user signed in");
+  const history = useHistory();
   const [password, setPassword] = useState("");
+  const [errMessage, setErrMessage] = useState("");
   const navProps = useContext(AlsContext);
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  const closeModal = (closeBool) => {
+    navProps.setErrorOpen(closeBool);
+  };
 
   const handleInputChange = (e) => {
     setPassword(e.target.value);
@@ -49,11 +56,16 @@ export default function Login() {
           "sign in with submit successful with auth.currentUser.uid",
           auth.currentUser.uid
         );
-        //setSignedIn(auth.currentUser.uid);
+
         navProps.setUser(auth.currentUser.uid);
+        history.push("/Materials");
+        setPassword("");
       })
       .catch((err) => {
         console.log(err.message);
+        setErrMessage(err.message);
+        navProps.setErrorOpen(true);
+        setPassword("");
       });
   }
   //console.log("sign in successful with auth.currentUser",auth);
@@ -93,6 +105,11 @@ export default function Login() {
           </div>
         </ContainerWrap>
       </Wrapper>
+      <ErrorModal
+        errorOpen={navProps.errorOpen}
+        errMessage={errMessage}
+        closeModal={closeModal}
+      />
     </>
   );
 }

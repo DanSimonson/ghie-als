@@ -215,6 +215,122 @@ button {
 *********************/
 
 /*********************
+* error Modal
+*********************/
+.modal-overlay-errors {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1040;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.5;
+}
+
+.modal-wrapper-errors {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1050;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: 0;
+  color: $velocity-primary;
+}
+
+.modal-errors {
+  z-index: 100;
+  background: $velocity-button-white;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 200px;
+  width: 400px;
+  border-radius: 3px;
+  background-color: $velocity-primary;
+  color: $velocity-font-white;
+  font-size: 1rem;
+  padding: 1rem;
+  //border: 5px solid green;
+}
+
+.modal-header-errors {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 1rem;
+}
+
+.modal-close-button-errors {
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  color: $velocity-primary;
+  background-color: $velocity-button-white;
+}
+.modal-close-button-error:focus {
+  outline: none;
+}
+
+button {
+  font-size: 0.9rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 3px;
+  padding: 0.3rem 1rem;
+  margin-left: 0.5rem;
+}
+
+.renderStyle {
+  margin: 1.5rem 0 1.5rem 1.5rem;
+}
+.topErrorWraps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  line-height: 40%;
+  margin-top: 2rem;
+}
+
+.middleErrorWraps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  //margin: 2.5rem 1rem 0 1rem;
+  //background-color: $velocity-primary;
+  //color: $velocity-font-white;
+  /*a {
+    color: $velocity-font-white;
+    text-decoration: underline;
+  }*/
+}
+.bottomErrorWraps {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  button {
+    background-color: $velocity-primary;
+    color: $velocity-font-white;
+    font-family: Roboto, Arial Narrow, helvetica, arial, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-size: 0.875rem;
+    line-height: 1.14286;
+    font-weight: 500;
+    letter-spacing: 0.07813rem;
+  }
+}
+
+/*********************
+* end error Modal
+*********************/
+
+/*********************
 * start about page
 *********************/
 
