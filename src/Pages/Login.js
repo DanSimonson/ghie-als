@@ -9,12 +9,15 @@ import { useHistory } from "react-router-dom";
 
 //background-color: #e3dfdb
 const Wrapper = styled.div``;
-//background-color: #388e3c;
+//background-color: #388e3c;margin: 0 auto
 const ContainerWrap = styled.div`
   height: 100%;
   width: 80%;
   background-color: #388e3c;
-  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 0
+  margin-left: auto;
+  margin-right: auto;
 `;
 const Header = styled.h3`
   //border: 5px solid red;
@@ -83,6 +86,7 @@ export default function Login() {
               <div className="flexWrapTwo">
                 <label htmlFor="password">Password</label>
                 <input
+                  style={{ width: "100%" }}
                   type="text"
                   id="password"
                   placeholder="Enter Password"

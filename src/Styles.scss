@@ -443,3 +443,11 @@ form {
 /*********************
 * end login page
 *********************/
+
+@media only screen and (max-width: 376px) {
+  .flexWrapTwo input {
+    max-width: 100%;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+}
