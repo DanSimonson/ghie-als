@@ -382,9 +382,15 @@ img {
 /*********************
 * login page
 *********************/
+form {
+  border: 5px solid red;
+}
+.Login {
+  border: 5px solid black;
+}
 .Login form {
   margin: 0 auto;
-  max-width: 320px;
+  max-width: 70%; //320px;
   color: #ffeb3b;
 }
 .Login Button {
@@ -395,13 +401,14 @@ img {
   background-color: #ff9800;
 }
 .flexWrapOne {
+  border: 5px solid brown;
   border-radius: 8px;
   background-color: #ff9800;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 50%;
-  margin: 0 auto;
+  margin: 1rem auto 0 auto;
 }
 .flexWrapTwo {
   margin: 1rem 0 5px 0;
@@ -416,6 +423,7 @@ img {
 .buttonWrap {
   display: flex;
   justify-content: center;
+  margin-top: 1rem;
 }
 .buttonWrap .formButton {
   background-color: #795548;
