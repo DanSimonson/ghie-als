@@ -1,4 +1,5 @@
 @import "~bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Satisfy&display=swap");
 
 $Primary-green: #26a69a;
 $Primary-blue: #2196f3;
@@ -10,8 +11,30 @@ $velocity-button-white: #daecff;
 $medium-grey: #e3dfdb;
 $light-grey: #fafafa;
 
+html,
 body {
+  background-image: url("https://res.cloudinary.com/dmglopmul/image/upload/v1596968476/ghie-als/paper.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   //text-align: none;
+  /*.bg {
+    /* The image used 
+    background-image: url("https://res.cloudinary.com/dmglopmul/image/upload/v1596968476/ghie-als/paper.jpg");
+
+    /* Full height 
+    height: 100%;
+
+    /* Center and scale the image nicely 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }*/
 }
 
 .nav-link {
@@ -57,7 +80,7 @@ body {
   text-decoration: none;
   background: $Primary-green; //#ed3330;
   padding: 15px;
-  //border-radius: 5px;
+  margin-bottom: 10px;
   display: inline-block;
   border: none;
   transition: all 0.4s ease 0s;
@@ -345,6 +368,12 @@ article {
     [main-start] minmax(0, 56em) [main-end]
     minmax(1em, 1fr) [full-end];
   grid-gap: 1em;
+  background-image: url("https://res.cloudinary.com/dmglopmul/image/upload/v1596968476/ghie-als/paper.jpg");
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 section {
@@ -441,6 +470,118 @@ form {
 
 /*********************
 * end login page
+*********************/
+
+/*********************
+* materials page
+*********************/
+/*.bg {
+  /* The image used 
+  background-image: url("https://res.cloudinary.com/dmglopmul/image/upload/v1596968476/ghie-als/paper.jpg");
+
+  /* Full height 
+  height: 100%;
+
+  /* Center and scale the image nicely 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
+
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 40px;
+  display: inline-block;
+  border-radius: 100px;
+  transition: all 0.2s;
+  position: absolute;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #777;
+}
+
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s;
+}
+
+.btn-white::after {
+  background-color: #fff;
+}
+
+.btn:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+
+.btn-animated {
+  animation: moveInBottom 5s ease-out;
+  animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+.spacerDiv {
+  height: 100px;
+}
+.mainMaterials {
+  font-family: "Permanent Marker", cursive;
+  padding: 1rem;
+  margin-left: 5rem;
+}
+
+/*********************
+* end materials page
+*********************/
+
+/*********************
+* enroll page
+*********************/
+.mainEnroll {
+  background-image: url("https://res.cloudinary.com/dmglopmul/image/upload/v1596968476/ghie-als/paper.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*********************
+* media query
 *********************/
 
 @media only screen and (max-width: 376px) {

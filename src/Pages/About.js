@@ -9,7 +9,7 @@ function About() {
 
   return (
     <Wrapper>
-      <article>
+      <article className="articleBackground">
         <section>
           <h1>Teaching Experience</h1>
           <p>

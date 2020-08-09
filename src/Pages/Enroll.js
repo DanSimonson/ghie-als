@@ -9,7 +9,11 @@ function Enroll() {
     window.scrollTo(0, 0);
   }, []);
 
-  return <Contact />;
+  return (
+    <main className="mainEnroll">
+      <Contact />;
+    </main>
+  );
 }
 
 export default Enroll;

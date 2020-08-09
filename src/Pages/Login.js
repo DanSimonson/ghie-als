@@ -9,11 +9,7 @@ import { useHistory } from "react-router-dom";
 
 //background-color: #e3dfdb
 const Wrapper = styled.div``;
-//background-color: #388e3c;margin: 0 auto
-//margin-top: 2rem;
-//margin-bottom: 0
-//margin-left: auto;
-//margin-right: auto; */
+
 const ContainerWrap = styled.div`
   height: 100%;
   width: 70%;
@@ -75,7 +71,6 @@ export default function Login() {
         setPassword("");
       });
   }
-  //console.log("sign in successful with auth.currentUser",auth);
 
   return (
     <>
