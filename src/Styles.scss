@@ -10,6 +10,10 @@ $velocity-button-white: #daecff;
 $medium-grey: #e3dfdb;
 $light-grey: #fafafa;
 
+body {
+  //text-align: none;
+}
+
 .nav-link {
   color: #fff;
   &:hover {
@@ -349,11 +353,6 @@ section {
 
 figure {
   grid-column: full;
-}
-
-/* Demo Specific Styles */
-body {
-  //padding: 2em 0;
 }
 
 article > * {
