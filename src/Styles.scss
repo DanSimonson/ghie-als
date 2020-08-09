@@ -475,18 +475,6 @@ form {
 /*********************
 * materials page
 *********************/
-/*.bg {
-  /* The image used 
-  background-image: url("https://res.cloudinary.com/dmglopmul/image/upload/v1596968476/ghie-als/paper.jpg");
-
-  /* Full height 
-  height: 100%;
-
-  /* Center and scale the image nicely 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}*/
 
 .btn:link,
 .btn:visited {
@@ -578,6 +566,10 @@ form {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.subMain {
+  width: 50%;
+  margin: 0 auto;
 }
 
 /*********************
