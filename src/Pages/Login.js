@@ -10,12 +10,16 @@ import { useHistory } from "react-router-dom";
 //background-color: #e3dfdb
 const Wrapper = styled.div``;
 //background-color: #388e3c;margin: 0 auto
+//margin-top: 2rem;
+//margin-bottom: 0
+//margin-left: auto;
+//margin-right: auto; */
 const ContainerWrap = styled.div`
   height: 100%;
-  width: 100%;
+  width: 70%;
   background-color: #388e3c;
-  margin-top: 2rem;
-  margin-bottom: 0
+  margin-top: 1rem;
+  margin-bottom: 10px;
   margin-left: auto;
   margin-right: auto;
 `;
