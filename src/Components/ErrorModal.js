@@ -4,10 +4,7 @@ import { AlsContext } from "../Context/AlsContext";
 
 function ErrorModal(props) {
   const { errorOpen, errMessage } = props;
-  console.log("props: ", props);
-  //const navProps = useContext(AlsContext);
 
-  //history, match, location
   function closeModal(event) {
     let errorOpen = false;
     let tag = event.target;

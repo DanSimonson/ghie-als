@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import styled from "styled-components";
+
 const Wrapper = styled.div`
   height: 100%;
 `;
@@ -14,7 +15,7 @@ function Materials() {
       <Wrapper>
         <section className="mainMaterials">
           <section className="subMain">
-            <p>Alternative Learning System Tests For Students</p>
+            <h1>Alternative Learning System Tests For Students</h1>
             <p>FUNCTIONAL LITERACY TEST (FLT) ELEMENTARY LEVEL</p>
             <a
               href="https://l.facebook.com/l.php?u=https%3A%2F%2Fcdn.fbsbx.com%2Fv%2Ft59.2708-21%2F61337618_1049468431909389_6555711482158383104_n.pdf%2FEL3-FLT-Test-Booklet-1.pdf%3F_nc_cat%3D100%26_nc_sid%3D0cab14%26_nc_ohc%3DW82kv2pxc8oAX9ipdwW%26_nc_ht%3Dcdn.fbsbx.com%26oh%3D3ccd7cdf5cafdd25ec5128f1ab824324%26oe%3D5F318AD1%26dl%3D1%26fbclid%3DIwAR0ovDhqjk3TOcoKHuUUS7aKqXlM03hgulF0O3mRhtpROo0nNRmuX2jsWNU&h=AT0anbzo2vWFA6U-8A5vZqG1e4RxnkIc57j7sQcBFZTaaZSnN2jhGlBsaLbiZT9ZHbPFJg-chlq5keg-0iZAQayC_lSLoxgq0px6kO_BYU8T6-sboXWzUqgy4-1feqEdJFXrTTBb"

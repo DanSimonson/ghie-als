@@ -77,7 +77,7 @@ function Home() {
         </section>
         <div className="gridWrap">
           <div className="one">
-            <img src="https://res.cloudinary.com/dmglopmul/image/upload/v1596129889/ghie-als/visionmission-768x591.jpg" />
+            <img src="https://res.cloudinary.com/dmglopmul/image/upload/v1597025886/ghie-als/deped.jpg" />
           </div>
           <div className="two">
             <img src="https://res.cloudinary.com/dmglopmul/image/upload/v1596128621/ghie-als/DEPED_Mission.jpg" />

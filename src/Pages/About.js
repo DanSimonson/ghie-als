@@ -17,8 +17,8 @@ function About() {
             students.
           </p>
           <p>
-            I have been teaching for over 18 years and was educated at De La
-            Salle University. When you enter my Classroom whether virual or in
+            I have been teaching for over 16 years and was educated at De La
+            Salle University. When you enter my Classroom whether virtual or in
             person, you will experience a safe and motivating environment to
             help you reach your full potential.
           </p>
@@ -27,8 +27,7 @@ function About() {
           <img src="https://res.cloudinary.com/dmglopmul/image/upload/v1596514527/ghie-als/ghieMainClassPhoto.jpg" />
         </figure>
         <section>
-          <h1>Teaching Philosopy </h1>
-          <p>Teaching ALS in the new normal setting requires new methods. </p>
+          <h1>Teaching ALS in the new normal setting requires new methods </h1>
           <p>
             It’s been a challenge for teachers and learners because of the new
             learning setting. Face to face teaching is not an option. New
@@ -43,6 +42,10 @@ function About() {
             Although the teaching tecniques change, the goal remains the same...
             to tap into students' passions and allow them to feel a connection
             to the curriculum, empowering them to learn.
+          </p>
+          <p>
+            This interactive website is one of the new modalities in the new
+            normal setting to equip students for success.
           </p>
         </section>
       </article>
