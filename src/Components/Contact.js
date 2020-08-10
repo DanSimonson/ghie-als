@@ -43,7 +43,7 @@ function Contact() {
   return (
     <>
       <div style={{ margin: " 16px 5px" }}>
-        <img src="https://res.cloudinary.com/dmglopmul/image/upload/v1596168301/ghie-als/ALS-ENROLLMENT-PROCEDURE-gina.jpg" />
+        <img src="https://res.cloudinary.com/dmglopmul/image/upload/v1597069838/ghie-als/ALS-ENROLLMENT-PROCEDURE-2_2.png" />
       </div>
       <div className="instructions">
         <p>

@@ -1,7 +1,10 @@
 import React, { useState, useContext } from "react";
 import styled from "styled-components";
-import { NavLink } from "react-router-dom";
+//import { NavLink } from "react-router-dom";
 import { AlsContext } from "../Context/AlsContext";
+import { auth } from "../Firebase";
+import { useHistory } from "react-router";
+import { withRouter, NavLink } from "react-router-dom";
 const Ul = styled.ul`
   list-style: none;
   display: flex;
@@ -29,11 +32,19 @@ const Ul = styled.ul`
 `;
 
 const RightNav = (props) => {
+  const history = useHistory();
+  console.log("props:", props);
+
   const [close, setClose] = useState(false);
   const navProps = useContext(AlsContext);
 
   function closeMe() {
     props.closeB(close);
+  }
+  function logout() {
+    history.push("/Login");
+    window.location.reload();
+    auth.signOut();
   }
 
   return (
@@ -65,15 +76,17 @@ const RightNav = (props) => {
       >
         Enrollment
       </NavLink>
-      <NavLink
-        exact
-        to="/Login"
-        className="nav-item nav-link"
-        activeClassName="nav-item nav-link active"
-        onClick={closeMe}
-      >
-        Login for Learning Material
-      </NavLink>
+      {navProps.user === "" && (
+        <NavLink
+          exact
+          to="/Login"
+          className="nav-item nav-link"
+          activeClassName="nav-item nav-link active"
+          onClick={closeMe}
+        >
+          Login for Learning Material
+        </NavLink>
+      )}
       {/*<NavLink
         exact
         to="/Contact"
@@ -103,10 +116,22 @@ const RightNav = (props) => {
           >
             SignUp
           </NavLink>
+          <NavLink
+            exact
+            to="/Login"
+            className="nav-item nav-link"
+            activeClassName="nav-item nav-link active"
+            onClick={() => {
+              closeMe();
+              logout();
+            }}
+          >
+            Sign Out
+          </NavLink>
         </>
       )}
     </Ul>
   );
 };
 
-export default RightNav;
+export default withRouter(RightNav);

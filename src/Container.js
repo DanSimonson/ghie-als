@@ -47,8 +47,7 @@ const Wrapper = styled.div`
 function Container({ location }) {
   const [myValue, setMyValue] = useState("Home Page");
   const [user, setUser] = useState("");
-  //{/*</AlsContext.Provider>*/}
-  //{/*<AlsContext.Provider value={{ myValue, setMyValue, user, setUser }}>*/}
+
   return (
     <Wrapper>
       <TransitionGroup className="transition-group">
