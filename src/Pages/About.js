@@ -18,9 +18,9 @@ function About() {
           </p>
           <p>
             I have been teaching ALS for over 16 years and was educated at De La
-            Salle University. When you enter my Learning Center whether virtual
-            or in person, you will experience a safe and motivating environment
-            to help you reach your full potential.
+            Salle University. When you enter my classroom, whether virtual or in
+            person, you will experience a safe and motivating environment to
+            help you reach your full potential.
           </p>
         </section>
         <figure>
