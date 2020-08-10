@@ -1,5 +1,6 @@
 @import "~bootstrap/scss/bootstrap";
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap");
 
 $Primary-green: #26a69a;
 $Primary-blue: #2196f3;
@@ -570,6 +571,39 @@ form {
 .subMain {
   width: 50%;
   margin: 0 auto;
+}
+
+/*********************
+* sign up page
+*********************/
+.signUpList {
+  list-style: none;
+  //text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.signUpHeader {
+  font-size: large;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+.wrapList {
+  //border: 5px solid red;
+  font-family: "Sigmar One", cursive;
+  width: 50%;
+  margin: 0 auto;
+}
+.sectionSignedUp {
+  background-image: url("https://res.cloudinary.com/dmglopmul/image/upload/v1596968476/ghie-als/paper.jpg");
+
+  /* Full height */
+  //height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*********************

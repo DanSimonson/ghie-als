@@ -35,14 +35,38 @@ function SignedUp() {
           });
           console.log("tempArray: ", tempArray);
         });
-        setFields({ tempArray });
+        setFields(tempArray);
       });
   }, []);
   console.log("fields: ", fields);
   return (
     <Wrapper>
-      <section>
-        <p>The SignedUp Page</p>
+      <section className="sectionSignedUp">
+        <div>
+          {fields.map((field) => (
+            <>
+              <div className="wrapList">
+                <ul className="signUpList" key={field.address}>
+                  <li className="signUpHeader">Student SignUp Information</li>
+                  <li>First Name: {field.firstName}</li>
+                  <li>Last Name: {field.lastName}</li>
+                  <li>First Address: {field.address}</li>
+                  <li>Phone: {field.phone}</li>
+                  <li>Email: {field.email}</li>
+                  <li>Birth Date: {field.birthdate}</li>
+                  <li>Gender: {field.gender}</li>
+                  <li>Religion: {field.religion}</li>
+                  <li>Father Name: {field.fathername}</li>
+                  <li>Mother Name: {field.mothername}</li>
+                  <li>Language: {field.language}</li>
+                  <li>Interest: {field.interest}</li>
+                  <li>Prefer: {field.prefer}</li>
+                </ul>
+                <hr />
+              </div>
+            </>
+          ))}
+        </div>
       </section>
     </Wrapper>
   );

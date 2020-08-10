@@ -42,7 +42,7 @@ const RightNav = (props) => {
     props.closeB(close);
   }
   function logout() {
-    history.push("/Login");
+    history.push("/");
     window.location.reload();
     auth.signOut();
   }
@@ -114,7 +114,7 @@ const RightNav = (props) => {
             activeClassName="nav-item nav-link active"
             onClick={closeMe}
           >
-            SignUp
+            SignedUp
           </NavLink>
           <NavLink
             exact
