@@ -72,7 +72,7 @@ const RightNav = (props) => {
         activeClassName="nav-item nav-link active"
         onClick={closeMe}
       >
-        Login
+        Login for Learning Material
       </NavLink>
       {/*<NavLink
         exact
@@ -92,7 +92,7 @@ const RightNav = (props) => {
             activeClassName="nav-item nav-link active"
             onClick={closeMe}
           >
-            Learning Delivery/Intervention
+            Learning Deliverables
           </NavLink>
           <NavLink
             exact

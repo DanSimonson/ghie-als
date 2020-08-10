@@ -17,10 +17,10 @@ function About() {
             students.
           </p>
           <p>
-            I have been teaching for over 16 years and was educated at De La
-            Salle University. When you enter my Classroom whether virtual or in
-            person, you will experience a safe and motivating environment to
-            help you reach your full potential.
+            I have been teaching ALS for over 16 years and was educated at De La
+            Salle University. When you enter my Learning Center whether virtual
+            or in person, you will experience a safe and motivating environment
+            to help you reach your full potential.
           </p>
         </section>
         <figure>
@@ -35,7 +35,7 @@ function About() {
           </p>
           <p>
             The new normal teaching will combine individual study with online
-            classroom work where students learn at their own pace with guided
+            classroom work where learners learn at their own pace with guided
             modules
           </p>
           <p>
@@ -45,7 +45,7 @@ function About() {
           </p>
           <p>
             This interactive website is one of the new modalities in the new
-            normal setting to equip students for success.
+            normal setting to equip learners for success.
           </p>
         </section>
       </article>
