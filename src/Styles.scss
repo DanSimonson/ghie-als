@@ -635,10 +635,19 @@ form {
 * media query
 *********************/
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 767px) {
   .flexWrapTwo input {
-    max-width: 100%;
+    //max-width: 100%;
     margin-left: 2px;
     margin-right: 2px;
+    width: 85%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .flexWrapTwo input {
+    //max-width: 100%;
+    margin-left: 2px;
+    margin-right: 2px;
+    width: 95%;
   }
 }
