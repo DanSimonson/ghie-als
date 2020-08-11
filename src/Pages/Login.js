@@ -112,7 +112,6 @@ export default function Login() {
             }}
           ></div>*/}
         </ContainerWrap>
-        <Footer />
       </Wrapper>
       <ErrorModal
         errorOpen={navProps.errorOpen}

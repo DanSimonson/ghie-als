@@ -34,7 +34,6 @@ function Materials() {
             </a>
           </section>
         </section>
-        <Footer />
       </Wrapper>
     </div>
   );
