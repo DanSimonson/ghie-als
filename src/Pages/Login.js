@@ -106,6 +106,12 @@ export default function Login() {
               </div>
             </form>
           </div>
+          {/*<div
+            style={{
+              height: "200px",
+              background: "transparent",
+            }}
+          ></div>*/}
         </ContainerWrap>
         <Footer />
       </Wrapper>
