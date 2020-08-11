@@ -15,13 +15,12 @@ const ContainerWrap = styled.div`
   height: 100%;
   width: 70%;
   background-color: #388e3c;
-  margin-top: 1rem;
-  margin-bottom: 10px;
+  margin-top: 3rem; //1rem;
+  margin-bottom: 3rem; //10px;
   margin-left: auto;
   margin-right: auto;
 `;
 const Header = styled.h3`
-  //border: 5px solid red;
   color: #ffeb3b;
   font-style: italic;
   font-weight: bold;
@@ -113,6 +112,7 @@ export default function Login() {
             }}
           ></div>*/}
         </ContainerWrap>
+        <Footer />
       </Wrapper>
       <ErrorModal
         errorOpen={navProps.errorOpen}
