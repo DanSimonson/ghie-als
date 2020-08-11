@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import styled from "styled-components";
+import Footer from "../Components/Footer";
 const Wrapper = styled.div``;
 
 function About() {
@@ -49,6 +50,7 @@ function About() {
           </p>
         </section>
       </article>
+      <Footer />
     </Wrapper>
   );
 }

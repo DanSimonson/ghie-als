@@ -2,6 +2,7 @@ import React, { useContext, useEffect } from "react";
 import "./Home.scss";
 import { AlsContext } from "../Context/AlsContext";
 import Navbar from "../Nav/Navbar";
+import Footer from "../Components/Footer";
 import { Carousel } from "react-bootstrap";
 import styled from "styled-components";
 const Wrapper = styled.div`
@@ -95,6 +96,7 @@ function Home() {
             <img src="https://res.cloudinary.com/dmglopmul/image/upload/v1596164916/ghie-als/logoALSCrop.png" />
           </div>
         </div>
+        <Footer />
       </Wrapper>
     </>
   );

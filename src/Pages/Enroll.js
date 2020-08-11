@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import styled from "styled-components";
 //import { db, auth } from "../Firebase";
 import Contact from "../Components/Contact";
+import Footer from "../Components/Footer";
 const Wrapper = styled.div``;
 
 function Enroll() {
@@ -11,7 +12,8 @@ function Enroll() {
 
   return (
     <main className="mainEnroll">
-      <Contact />;
+      <Contact />
+      <Footer />
     </main>
   );
 }

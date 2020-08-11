@@ -14,7 +14,6 @@ import About from "./Pages/About";
 import Enroll from "./Pages/Enroll";
 import Login from "./Pages/Login";
 import SignedUp from "./Pages/SignedUp";
-//import { AlsContext } from "./Context/AlsContext";
 import "./Styles.scss";
 
 const Wrapper = styled.div`

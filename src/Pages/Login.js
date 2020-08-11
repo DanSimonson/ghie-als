@@ -3,6 +3,7 @@ import { Button, FormGroup, FormControl, FormLabel } from "react-bootstrap";
 import styled from "styled-components";
 import "./Login.scss";
 import ErrorModal from "../Components/ErrorModal";
+import Footer from "../Components/Footer";
 import { AlsContext } from "../Context/AlsContext";
 import { auth } from "../Firebase";
 import { useHistory } from "react-router-dom";
@@ -106,6 +107,7 @@ export default function Login() {
             </form>
           </div>
         </ContainerWrap>
+        <Footer />
       </Wrapper>
       <ErrorModal
         errorOpen={navProps.errorOpen}

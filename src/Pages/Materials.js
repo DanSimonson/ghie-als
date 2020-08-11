@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import styled from "styled-components";
+import Footer from "../Components/Footer";
 
 const Wrapper = styled.div`
   height: 100%;
@@ -33,6 +34,7 @@ function Materials() {
             </a>
           </section>
         </section>
+        <Footer />
       </Wrapper>
     </div>
   );
