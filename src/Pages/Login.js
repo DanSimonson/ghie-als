@@ -71,6 +71,12 @@ export default function Login() {
         setPassword("");
       });
   }
+  const handleKeyPress = (e) => {
+    if (e.key === "Enter") {
+      //alert("Enter pressed");
+      handleSubmit(e);
+    }
+  };
 
   return (
     <>
@@ -91,6 +97,7 @@ export default function Login() {
                   name="password"
                   value={password}
                   onChange={handleInputChange}
+                  onKeyPress={handleKeyPress}
                 />
               </div>
 
